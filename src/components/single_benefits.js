@@ -28,6 +28,7 @@ function getRating(benefit){
     if(benefit.rating.cleaning) {
         listRating.push(<Text style = {styles.textDetails}>{"Menage : " + benefit.rating.cleaning + "\n"}</Text>)
     }
+    if (listRating.length === 0) listRating.push(<Text style = {styles.textDetails}>{"Aucun\n"}</Text>)
     return listRating
 }
 
@@ -45,7 +46,7 @@ const SingleBenefits = (props) => {
                 }}
             >
                 <View style={styles.mainContainer}>
-                    <Text style={styles.textDetailsBold}>{"Statut : "}</Text><Text style = {styles.textDetails}>{isCanceled(benefit.canceled) + "\n\n"}</Text>
+                    <Text style={styles.textDetailsBold}>{"Statut : "}</Text><Text style = {styles.textDetails}>{isCanceled(benefit.canceled) + "\n"}</Text>
                     <Text style={styles.textDetailsBold}>{"Addresse : "}</Text><Text style = {styles.textDetails}>{benefit.address.street + "\n"}</Text>
                     <Text style={styles.textDetailsBold}>{"Ville: "}</Text><Text style = {styles.textDetails}>{benefit.address.city + "\n"}</Text>
                     <Text style={styles.textDetailsBold}>{"Code Postal : "}</Text><Text style = {styles.textDetails}>{benefit.address.zipcode + "\n"}</Text>

@@ -1,9 +1,7 @@
-import {Modal, Pressable, Text, View} from "react-native";
+import {ScrollView, View} from "react-native";
 import styles from "../../App.css";
-import React, {useState} from 'react'
+import React from 'react'
 import HeaderApp from "../components/header";
-import single_benefits from "../components/single_benefits";
-import list_benefits from "./list_benefits";
 import SingleBenefits from "../components/single_benefits";
 
 const benefitsData = require('../../assets/list_benefits.json')
@@ -18,7 +16,9 @@ const ListBenefits = (navigation) => {
     return(
         <View style={styles.container}>
             <HeaderApp/>
-            {list}
+            <ScrollView>
+                {list}
+            </ScrollView>
         </View>
     )
 }

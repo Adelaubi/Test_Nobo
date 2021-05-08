@@ -7,11 +7,12 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
     },
     mainContainer: {
+        marginHorizontal:20,
         marginVertical:50,
         alignItems: 'center',
         justifyContent: 'center',
     },
-    textStyle: {
+    textPresentation: {
         fontFamily:'Roboto',
         fontSize: 22,
         margin:30,
@@ -32,8 +33,9 @@ const styles = StyleSheet.create({
     },
     button: {
         fontFamily:'Roboto',
+        color:'#fafafa',
         fontSize: 20,
-        backgroundColor: '#ffb2b2',
+        backgroundColor: '#67cabf',
         padding:10,
         borderRadius:10
     }

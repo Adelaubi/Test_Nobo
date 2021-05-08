@@ -27,18 +27,58 @@
       "cleaning": "6"
     },
     "address": {
-      "street": "23 Rue du Sabre",
-      "zipcode": "75016",
-      "city": "Paris",
+      "street": "28 Rue de Clamart",
+      "zipcode": "60200",
+      "city": "Compiègne",
       "country": "France"
     },
     "customer": {
-      "firstname": "Maria",
-      "lastname": "De La Vega"
+      "firstname": "Michel",
+      "lastname": "Drucker"
     },
     "provider": {
-      "firstname": "Anna",
-      "lastname": "Amara"
+      "firstname": "Jean",
+      "lastname": "Dupont"
+    }
+  },
+  {
+    "prestation_id":"3",
+    "canceled": "1",
+    "rating": {
+    },
+    "address": {
+      "street": "26 Rue des Hortensias",
+      "zipcode": "78114",
+      "city": "Magny-les-Hameaux",
+      "country": "France"
+    },
+    "customer": {
+      "firstname": "Jeannette",
+      "lastname": "Gaston"
+    },
+    "provider": {
+      "firstname": "Michelle",
+      "lastname": "Biceps"
+    }
+  },
+  {
+    "prestation_id":"4",
+    "canceled": "1",
+    "rating": {
+    },
+    "address": {
+      "street": "23 Rue des petits rosiers sympatoches",
+      "zipcode": "60200",
+      "city": "Compiègne",
+      "country": "France"
+    },
+    "customer": {
+      "firstname": "Henriette",
+      "lastname": "de Motel"
+    },
+    "provider": {
+      "firstname": "Gerard",
+      "lastname": "Menvussa"
     }
   }
 ]

@@ -11,8 +11,8 @@ const Tab = createBottomTabNavigator();
 const BottomTabMenu = () => {
     return(
         <Tab.Navigator tabBarOptions={{
-            activeTintColor: '#67cabf',
-            inactiveTintColor:'#fff',
+            activeTintColor: '#fafafa',
+            inactiveTintColor:'#67cabf',
             activeBackgroundColor:'#ffb2b2',
             inactiveBackgroundColor:'#ffb2b2',
         }}>
