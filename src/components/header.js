@@ -1,8 +1,7 @@
 import React from "react";
 import { Header } from 'react-native-elements';
-import styles from "../../App.css";
 
-const HeaderApp = (props) => {
+const HeaderApp = () => {
     return(
         <Header
             style={{backgroundColor:'#ffb2b2'}}

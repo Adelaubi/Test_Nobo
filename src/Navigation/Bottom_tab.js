@@ -2,9 +2,7 @@ import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import React from "react";
 import Home from "../pages/Home";
 import ListBenefits from "../pages/list_benefits";
-import {Icon} from "react-native-elements";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import list_benefits from "../pages/list_benefits";
 
 const Tab = createBottomTabNavigator();
 

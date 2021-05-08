@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import {View, Text, TouchableOpacity, Modal, Pressable} from "react-native"
+import {View, Text, Modal, Pressable} from "react-native"
 import styles from "../../App.css";
 
 const benefitsData = require('../../assets/list_benefits.json')
