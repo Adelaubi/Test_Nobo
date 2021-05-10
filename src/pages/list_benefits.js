@@ -6,11 +6,11 @@ import SingleBenefits from "../components/single_benefits";
 
 const benefitsData = require('../../assets/list_benefits.json')
 
-const ListBenefits = (navigation) => {
+const ListBenefits = () => {
     let list = []
 
     for (let i = 0; i <Object.keys(benefitsData).length; i++){
-        list.push(<SingleBenefits key={benefitsData[i].prestation_id} idBenefit ={benefitsData[i].prestation_id}/>)
+        list.push(<SingleBenefits idBenefit ={benefitsData[i].prestation_id} key={benefitsData[i].prestation_id}/>)
     }
 
     return(
