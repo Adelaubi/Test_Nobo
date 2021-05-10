@@ -10,7 +10,7 @@ const ListBenefits = (navigation) => {
     let list = []
 
     for (let i = 0; i <Object.keys(benefitsData).length; i++){
-        list.push(<SingleBenefits idBenefit ={benefitsData[i].prestation_id}/>)
+        list.push(<SingleBenefits key={benefitsData[i].prestation_id} idBenefit ={benefitsData[i].prestation_id}/>)
     }
 
     return(
